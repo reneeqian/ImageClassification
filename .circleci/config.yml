@@ -8,8 +8,7 @@ orbs:
 jobs:
   build:
     machine:
-      resource_class: gpu.nvidia.small
-      image: ubuntu-1604-cuda-11.1:202012-01
+      image: 'ubuntu-2004:202111-02'
     steps:
       - checkout
       - matlab/install
